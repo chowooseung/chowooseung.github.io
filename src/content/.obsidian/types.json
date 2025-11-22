@@ -8,6 +8,7 @@
     "draft": "checkbox",
     "noIndex": "checkbox",
     "featured": "checkbox",
-    "date": "date"
+    "date": "date",
+    "categories": "multitext"
   }
 }
