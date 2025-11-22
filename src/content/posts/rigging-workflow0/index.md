@@ -19,7 +19,7 @@ draft: false
 
 이 당시에 나는 guidable rigging system 를 scripting을 하지 않거나 덜 할 수 있는 장점이 있다고 생각하고 있었다. 하지만 이것은 작업을 거의 하지 않은 내 착각이었고 실제 작업 시에는 script 를 안 쓸 수 없다는 것을 뒤늦게 알았다. 실 작업 시엔 asset 마다 요구 사항이 다르고 추가 작업이 필요하다. 하지만 guidable rigging system 은 이런 개별 요구 사항까지 포함하기는 힘들었다.
 
-guidable rigging system 은 실제 작업하는 것은 굉장히 편했으나 그것을 완성하기까지 과정이 너무 힘들고 디버깅이 쉽지 않았다. maya 의 노드 에디터는 잘못된 부분을 확인하는 것도 힘들지만 그것이 반복 적으로 사용 될 때 일괄 수정이 매우 힘들었다. 
+guidable rigging system 은 실제 asset 작업하는 것은 굉장히 편했다. 하지만 그 template을 완성하기까지 과정이 너무 힘들고 디버깅이 쉽지 않았다. maya 의 노드 에디터는 잘못된 부분을 확인하는 것도 힘들지만 기능이 반복 적으로 사용 될 때 일괄 수정이 매우 힘들었다. 
 
 이후에는 [글](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)에 언급된 [mgear](https://www.mgear-framework.com/) 를 찾아보기 시작했다. mgear 는 data centric workflow를 중심으로 하는 철학으로 rigging에 필요한 전체 기능을 제공하는 framework 이다. scene이 아닌 guide를 기반으로 하는 데이터로부터 리그를 생성하는 workflow 는 scene 에 종속되지 않고 이전으로 돌아가 문제를 해결 할 수 있었다. 또한 custom scripts를 사용해서 modular rigging system 에서 지원하는 범위 밖의 코드를 build 할 때 추가 할 수 있는데 이것은 ==asset 마다 자동화== 를 가능하게 했다. asset 을 구성하는데 필요한 데이터를 asset 마다 독립적으로 관리 할 수 있다는 것은 정말 큰 이점 이었다. 특히 리그 재 사용 측면에서  꼭 필요하다고 생각하게 되었다. 이때 scripting 이 생각보다 많이 중요하다는 것을 깨닫고 mgear를 clone coding 하는 side project를 시작했다.
 

@@ -12,11 +12,11 @@
     }
   },
   "siteInfo": {
-    "site": "https://chowooseung.netlify.app",
+    "site": "https://chowooseung.github.io",
     "title": "Cho Wooseung",
     "description": "Rigging Blog",
     "author": "Cho Wooseung",
-    "language": "en",
+    "language": "ko",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
   },
@@ -163,7 +163,7 @@
     "showSocialIconsInFooter": true,
     "profilePicture": false,
     "comments": true,
-    "featureButton": "mode",
+    "featureButton": "theme",
     "showPostCardCoverImages": "featured-and-posts",
     "postCardAspectRatio": "og",
     "customPostCardAspectRatio": "2.5/1",
