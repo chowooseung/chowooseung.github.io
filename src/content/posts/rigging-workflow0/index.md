@@ -11,7 +11,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 ---
 [https://bindpose.com/rigging-systems-reusability-modularity-extensibility/](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)
 
