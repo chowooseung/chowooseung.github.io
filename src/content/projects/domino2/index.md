@@ -5,7 +5,7 @@ description: Data centric, Modular, Guidable Rigging Framework
 tags:
 image: "[[domino.png]]"
 imageAlt: ""
-imageOG: false
+imageOG: true
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
