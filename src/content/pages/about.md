@@ -52,5 +52,3 @@ aliases:
 ### **디지털 아이디어**
 **Rigger** | **기간:** 2018.10 – 2019.05
 * Guidable Rigging System R&D
-
----
