@@ -3,7 +3,7 @@ title: domino2
 date: 2025-11-23
 description: Data centric, Modular, Guidable Rigging Framework
 tags:
-image: ""
+image: "[[../../projects/domino2/guidable-rigging-module.gif]]"
 imageAlt: ""
 imageOG: false
 hideCoverImage: false
