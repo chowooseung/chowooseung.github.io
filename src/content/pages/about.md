@@ -10,7 +10,8 @@ aliases:
 ---
 # 조우승
 
-안녕하세요. 2018년 부터 Rigging을 시작했습니다. 캐릭터를 구현하는 전반적인 기술과 그 구현에 대해 관심이 있습니다.
+안녕하세요. 2018년 부터 Rigging을 시작했습니다. 
+캐릭터를 구현하는 전반적인 기술과 그 구현에 대해 관심이 있습니다.
 * **이메일:** main.wooseung@gmail.com
 
 ---
@@ -29,9 +30,9 @@ aliases:
 * Creature 에 사용할 수 있도록 Metahuman Facial Rig Convert
 * Creature Rigging
 * Bird Rigging
-* Team Lead 부재로 mentoring
+* Team Lead 부재로 팀 mentoring
 * CFX workflow 설계
-* 팀 내 Manual 작성
+* 팀 내 Rigging / CFX Manual 작성
  
 **Senior Rigger**  | **기간:** 2023.02 – 2023.09
 * Quadruped Rigging / CFX
@@ -42,11 +43,11 @@ aliases:
 
 ### **걸리버 스튜디오**
 **R&D 사원**  | **기간:** 2019.07 – 2021.09
-* Rig / CFX 팀 내 Rigging System Template 제작 (biped, quadruped)
-* RIg / CFX 팀 Tool 제작
-* Matchmove 팀 Tool 제작
-* usd asset 파이프라인 툴 제작
-* wing fold 가능한 Bird Rigging
+* Rig / CFX 팀 내 Rigging System Template 개발 (biped, quadruped)
+* RIg / CFX 팀 Tool 개발
+* Matchmove 팀 Tool 개발
+* usd asset Pipeline Tool 개발
+* wing fold 가능한 Bird Rigging 개발
 
 ### **디지털 아이디어**
 **Rigger** | **기간:** 2018.10 – 2019.05
