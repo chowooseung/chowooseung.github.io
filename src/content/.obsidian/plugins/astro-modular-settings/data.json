@@ -12,7 +12,7 @@
     }
   },
   "siteInfo": {
-    "site": "https://chowooseung.github.io",
+    "site": "https://chowooseung.netlify.app",
     "title": "Cho Wooseung",
     "description": "Rigging Blog",
     "author": "Cho Wooseung",
@@ -216,7 +216,7 @@
     }
   },
   "deployment": {
-    "platform": "github-pages"
+    "platform": "netlify"
   },
   "pluginConfig": {
     "obsidianSettings": {
