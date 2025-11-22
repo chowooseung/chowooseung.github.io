@@ -26,27 +26,30 @@ aliases:
 ## Career
 ### **웨스트월드**
 **Senior Rigger**  | **기간:** 2024.01 – 현재
-* Creature 에 사용할 수 있는 Metahuman Facial Rig 제작.
+* Creature 에 사용할 수 있도록 Metahuman Facial Rig Convert
 * Creature Rigging
+* Bird Rigging
 * Team Lead 부재로 mentoring
 * CFX workflow 설계
+* 팀 내 Manual 작성
  
 **Senior Rigger**  | **기간:** 2023.02 – 2023.09
 * Quadruped Rigging / CFX
 * Prop Rigging
 
 **Rigger**  | **기간:** 2022.05 – 2023.01
-* ship Rigging / CFX
+* Ship Rigging / CFX
 
 ### **걸리버 스튜디오**
 **R&D 사원**  | **기간:** 2019.07 – 2021.09
-* Rig / CFX 팀 내 rigging system template 제작 (biped, quadruped)
-* Matchmove 팀 script 제작
+* Rig / CFX 팀 내 Rigging System Template 제작 (biped, quadruped)
+* RIg / CFX 팀 Tool 제작
+* Matchmove 팀 Tool 제작
 * usd asset 파이프라인 툴 제작
-* wing fold 가능한 bird rigging
+* wing fold 가능한 Bird Rigging
 
 ### **디지털 아이디어**
 **Rigger** | **기간:** 2018.10 – 2019.05
-* guidable rigging system R&D. 
+* Guidable Rigging System R&D
 
 ---
