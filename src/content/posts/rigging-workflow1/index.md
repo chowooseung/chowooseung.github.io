@@ -5,6 +5,7 @@ description: rigging workflow 에 대한 생각.
 tags:
   - rigging-system
   - rigging-workflow
+  - rigging
 image: ""
 imageAlt: ""
 imageOG: false
