@@ -32,5 +32,5 @@ Rig는 Guide와 직접적으로 연결되어 있습니다. Guide를 움직이면
 최대한 Maya 의 기본 기능을 사용해서 리그를 구현하는 것이 목표입니다. 이후에 플러그인이 필요한 시점이 있을 수 있지만 아직은 필요도 능력도 부족해 우선순위에 없습니다.
 
 ---
->domino 는 [mgear](https://www.mgear-framework.com/)의 clone coding 으로 시작한 개인 사이드 프로젝트였습니다. 현재는 달라진 부분이 많이 있지만 mgear👍 는 domino의 선생님같은 프로젝트 입니다. 
+>domino 는 [mgear](https://www.mgear-framework.com/)의 클론 코딩으로 시작한 개인 사이드 프로젝트였습니다. 현재는 달라진 부분이 많이 있지만 mgear👍 는 domino의 선생님 같은 프로젝트 입니다. 
 >domino 는 현재도 개인 사이드 프로젝트로 개발이 진행 중 입니다. 

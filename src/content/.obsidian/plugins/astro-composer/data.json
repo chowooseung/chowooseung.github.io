@@ -33,7 +33,8 @@
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ndate: {{date}}\ncategories: []\nrepositoryUrl: \"\"\ndemoURL: \"\"\nstatus: \"\"\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\nnoIndex: false\nfeatured: false\n---\n",
       "enabled": true,
       "linkBasePath": "/projects/",
-      "creationMode": "file"
+      "creationMode": "folder",
+      "indexFileName": "index"
     },
     {
       "id": "custom-1758090465286",
@@ -42,7 +43,8 @@
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ncategory: \"\"\norder: 0\nlastModified: {{date}}\nversion: \"\"\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\ndraft: false\nnoIndex: false\nfeatured: false\n---\n",
       "enabled": true,
       "linkBasePath": "/docs/",
-      "creationMode": "file"
+      "creationMode": "folder",
+      "indexFileName": "index"
     }
   ],
   "linkBasePath": "/posts/",

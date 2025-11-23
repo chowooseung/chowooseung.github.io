@@ -22,12 +22,12 @@ draft: false
 
 guidable rigging system 은 실제 asset 작업하는 것은 굉장히 편했다. 하지만 그 template을 완성하기까지 과정이 너무 힘들고 디버깅이 쉽지 않았다. maya 의 노드 에디터는 잘못된 부분을 확인하는 것도 힘들지만 기능이 반복 적으로 사용 될 때 일괄 수정이 매우 힘들었다. 
 
-이후에는 [글](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)에 언급된 [mgear](https://www.mgear-framework.com/) 를 찾아보기 시작했다. mgear 는 data centric workflow를 중심으로 하는 철학으로 rigging에 필요한 전체 기능을 제공하는 framework 이다. scene이 아닌 guide를 기반으로 하는 데이터로부터 리그를 생성하는 workflow 는 scene 에 종속되지 않고 이전으로 돌아가 문제를 해결 할 수 있었다. 또한 build 시 custom scripts를 추가할 수 있다. custom script는 build 이후(혹은 이전)에 rig에 추가 수정을 할 수 있는데 이것은 ==asset 마다 자동화== 를 가능하게 했다. asset 을 구성하는데 필요한 데이터를 asset 마다 독립적으로 관리 할 수 있다는 것은 정말 큰 이점 이었다. 특히 리그 재 사용 측면에서  꼭 필요하다고 생각하게 되었다. 이때 scripting 이 생각보다 많이 중요하다는 것을 깨닫고 mgear를 clone coding 하는 side project를 시작했다.
+이후에는 [글](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)에 언급된 [mgear](https://www.mgear-framework.com/) 를 찾아보기 시작했다. mgear 는 data centric workflow를 중심으로 하는 철학으로 rigging에 필요한 전체 기능을 제공하는 framework 이다. scene이 아닌 guide를 기반으로 하는 데이터로부터 리그를 생성하는 workflow 는 scene 에 종속되지 않고 이전으로 돌아가 문제를 해결 할 수 있었다. 또한 build 시 custom scripts를 추가할 수 있다. custom script는 build 이후(혹은 이전)에 rig에 추가 수정을 할 수 있는데 이것은 ==asset 단위의 자동화== 를 가능하게 했다. asset 을 구성하는데 필요한 데이터를 asset 마다 독립적으로 관리 할 수 있다는 것은 정말 큰 이점 이었다. 특히 rig 재 사용 측면에서  꼭 필요하다고 생각하게 되었다. 이때 scripting 이 생각보다 많이 중요하다는 것을 깨닫고 mgear를 clone coding 하는 side project를 시작했다.
 
-하지만 mgear 역시 불편한 점이 있었는데 rig가 없는 guide 상태에서 작업을 하기 때문에 rig 를 확인하기 위해 build 를 반복해야 한다는 점이었다. 이것은 build가 얼마 걸리지 않을 때는 아무 문제가 되지 않았지만 rig를 build 하는데 10분이 넘어가는 asset을 작업할 때 굉장히 문제가 되었다. 그리고 외부 플러그인을 강제로 쓸 수 밖에 없다는 점, modular rigging system 을 수정하기 위해선 코드를 수정해야 하는데 오픈소스로 개발이 진행 중인 프로젝트라 수정 + 업데이트를 모두 관리해야 한다는 점, custom script 의 버전 관리가 자동으로 되지 않는 점이 개선이 필요했다.
+하지만 mgear 역시 불편한 점이 있었는데 rig가 없는 guide 상태에서 작업을 하기 때문에 rig 를 확인하기 위해 build 를 반복해야 한다는 점이었다. 이것은 build가 얼마 걸리지 않을 때는 아무 문제가 되지 않았지만 rig를 build 하는데 10분이 넘어가는 asset을 작업할 때 굉장히 문제가 되었다. 그리고 외부 플러그인을 강제로 쓸 수 밖에 없다는 점, modular rigging system 을 수정하기 위해선 코드를 수정해야 하는데 오픈소스로 개발이 진행 중인 프로젝트라 수정 + 업데이트를 모두 관리해야 한다는 점, custom script 의 버전 관리가 guide와 함께 되지 않는 점이 개선이 필요했다.
 
 결국 현재는 rigging workflow 를 확립하는데 다음 항목을 고려하게 되었다.
-1. asset 마다 자동화
+1. asset 단위의 자동화
 2. data centric workflow
 3. modular rigging system
 4. guidable rigging system 이지만 디버깅이 쉽게 코드 베이스로 관리해야 함

@@ -9,6 +9,9 @@
     "noIndex": "checkbox",
     "featured": "checkbox",
     "date": "date",
-    "categories": "multitext"
+    "categories": "text",
+    "order": "number",
+    "lastModified": "date",
+    "title": "text"
   }
 }
