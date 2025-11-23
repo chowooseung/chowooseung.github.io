@@ -10,7 +10,7 @@ hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
-categories: domino
+category: domino
 order: 1
 version: 1.0.0
 lastModified: 2025-11-23
