@@ -241,7 +241,7 @@ export const siteConfig: SiteConfig = {
   featureButton: "theme", // "mode" | "graph" | "theme" | "none"
   deployment: {
     // [CONFIG:DEPLOYMENT_PLATFORM]
-    platform: "netlify", // "netlify" | "vercel" | "github-pages" | "cloudflare-workers" - sets redirect configuration for the chosen platform (Cloudflare Workers uses Workers-compatible config)
+    platform: "github-pages", // "netlify" | "vercel" | "github-pages" | "cloudflare-workers" - sets redirect configuration for the chosen platform (Cloudflare Workers uses Workers-compatible config)
   },
 
   // Command Palette
@@ -408,29 +408,29 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:POST_OPTIONS_COMMENTS_PROVIDER]
       provider: "giscus",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO]
-      repo: "chowooseung/chowooseung.github.io",
+      repo: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO_ID]
-      repoId: "R_kgDOQa40-A",
+      repoId: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY]
-      category: "Announcements",
+      category: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY_ID]
-      categoryId: "DIC_kwDOQa40-M4CyFLH",
+      categoryId: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_MAPPING]
-      mapping: "pathname",
+      mapping: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_STRICT]
-      strict: "0",
+      strict: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_REACTIONS]
-      reactions: "1",
+      reactions: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_METADATA]
-      metadata: "0",
+      metadata: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_INPUT_POSITION]
-      inputPosition: "bottom",
+      inputPosition: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_THEME]
-      theme: "preferred_color_scheme",
+      theme: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_LANG]
-      lang: "ko",
+      lang: "",
       // [CONFIG:POST_OPTIONS_COMMENTS_LOADING]
-      loading: "lazy",
+      loading: "",
     },
   },
 };
