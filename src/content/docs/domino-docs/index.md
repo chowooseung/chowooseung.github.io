@@ -9,7 +9,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
-draft: true
+draft: false
 categories: domino
 order: 1
 version: 1.0.0
