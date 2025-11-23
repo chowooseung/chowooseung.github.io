@@ -11,7 +11,6 @@ hideTOC: false
 draft: false
 category: Domino
 order: 1
-version: 1.0.0
 lastModified: 2025-11-23
 ---
 domino cods test

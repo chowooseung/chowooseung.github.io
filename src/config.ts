@@ -408,29 +408,29 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:POST_OPTIONS_COMMENTS_PROVIDER]
       provider: "giscus",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO]
-      repo: "",
+      repo: "chowooseung/chowooseung.github.io",
       // [CONFIG:POST_OPTIONS_COMMENTS_REPO_ID]
-      repoId: "",
+      repoId: "R_kgDOQa40-A",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY]
-      category: "",
+      category: "Announcements",
       // [CONFIG:POST_OPTIONS_COMMENTS_CATEGORY_ID]
-      categoryId: "",
+      categoryId: "DIC_kwDOQa40-M4CyFLH",
       // [CONFIG:POST_OPTIONS_COMMENTS_MAPPING]
-      mapping: "",
+      mapping: "pathname",
       // [CONFIG:POST_OPTIONS_COMMENTS_STRICT]
-      strict: "",
+      strict: "0",
       // [CONFIG:POST_OPTIONS_COMMENTS_REACTIONS]
-      reactions: "",
+      reactions: "1",
       // [CONFIG:POST_OPTIONS_COMMENTS_METADATA]
-      metadata: "",
+      metadata: "0",
       // [CONFIG:POST_OPTIONS_COMMENTS_INPUT_POSITION]
-      inputPosition: "",
+      inputPosition: "bottom",
       // [CONFIG:POST_OPTIONS_COMMENTS_THEME]
-      theme: "",
+      theme: "preferred_color_scheme",
       // [CONFIG:POST_OPTIONS_COMMENTS_LANG]
-      lang: "",
+      lang: "ko",
       // [CONFIG:POST_OPTIONS_COMMENTS_LOADING]
-      loading: "",
+      loading: "lazy",
     },
   },
 };
