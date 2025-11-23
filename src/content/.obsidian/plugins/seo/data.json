@@ -34,326 +34,13 @@
   "duplicateThreshold": 80,
   "cachedGlobalResults": [
     {
-      "file": "posts/sample-folder-based-post/index.md",
-      "displayName": "Sample Folder-Based Post",
-      "checks": {
-        "titleLength": [],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with description property",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [],
-        "keywordInTitle": [],
-        "keywordInDescription": [],
-        "keywordInHeadings": [],
-        "keywordInSlug": [],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with keyword property",
-            "severity": "warning"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "Heading structure is correct",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": false,
-            "message": "Content too short: 133 words",
-            "suggestion": "Aim for at least 300 words",
-            "severity": "warning"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "All media elements have alt text",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No external links found",
-            "severity": "info"
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 11.3 (Moderately easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 71.22727272727273,
-      "issuesCount": 0,
-      "warningsCount": 3,
-      "noticesCount": 0
-    },
-    {
-      "file": "posts/obsidian-vault-guide.md",
-      "displayName": "Obsidian Vault Guide",
-      "checks": {
-        "titleLength": [],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with description property",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [],
-        "keywordInTitle": [],
-        "keywordInDescription": [],
-        "keywordInHeadings": [],
-        "keywordInSlug": [],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with keyword property",
-            "severity": "warning"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "Heading structure is correct",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": true,
-            "message": "Good content length: 1826 words",
-            "severity": "info"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "All media elements have alt text",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": true,
-            "message": "All images have good file names",
-            "severity": "info"
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "Relative path link: Astro and Obsidian logos stacked vertically with a \"+\" (plus) sign between them.",
-            "suggestion": "This link may be valid for static site generators but may not work in Obsidian",
-            "severity": "notice",
-            "position": {
-              "line": 22,
-              "searchText": "[Astro and Obsidian logos stacked vertically with a \"+\" (plus) sign between them.](/posts/attachments/astro-composer-suite-for-obsidian.png)",
-              "context": "  - astro-suite-obsidian-vault-guide-astro-modular\r\n---\r\n![Astro and Obsidian logos stacked vertically with a \"+\" (plus) sign between them.](/posts/attachments/astro-composer-suite-for-obsidian.png)\r\n\r\n## Overview\r"
-            }
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "Found 7 external link(s), all appear to resolve and are working",
-            "severity": "info"
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 9.9 (Moderately easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 79,
-      "issuesCount": 0,
-      "warningsCount": 2,
-      "noticesCount": 1
-    },
-    {
-      "file": "posts/obsidian-embeds-demo.md",
-      "displayName": "Obsidian Embeds Demo",
-      "checks": {
-        "titleLength": [],
-        "metaDescription": [
-          {
-            "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with description property",
-            "severity": "warning"
-          }
-        ],
-        "titleH1Uniqueness": [],
-        "keywordInTitle": [],
-        "keywordInDescription": [],
-        "keywordInHeadings": [],
-        "keywordInSlug": [],
-        "slugFormat": [],
-        "keywordDensity": [
-          {
-            "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with keyword property",
-            "severity": "warning"
-          }
-        ],
-        "headingOrder": [
-          {
-            "passed": true,
-            "message": "Heading structure is correct",
-            "severity": "info"
-          }
-        ],
-        "contentLength": [
-          {
-            "passed": true,
-            "message": "Good content length: 762 words",
-            "severity": "info"
-          }
-        ],
-        "duplicateTitles": [],
-        "duplicateDescriptions": [],
-        "duplicateContent": [],
-        "altText": [
-          {
-            "passed": true,
-            "message": "All media elements have alt text",
-            "severity": "info"
-          }
-        ],
-        "imageFileNames": [
-          {
-            "passed": false,
-            "message": "Image 2 has random file name: 1933196479801536736",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 53,
-              "searchText": "![Why doesn't everyone use Astro? Writing blog posts in markdown is beautiful.](https://x.com/davidvkimball/status/1933196479801536736)",
-              "context": "### Twitter/X Posts\r\n\r\n![Why doesn't everyone use Astro? Writing blog posts in markdown is beautiful.](https://x.com/davidvkimball/status/1933196479801536736)\r\n\r\nTwitter posts are embedded with theme-aware styling that matches your site's light/dark mode.\r"
-            }
-          }
-        ],
-        "nakedLinks": [
-          {
-            "passed": true,
-            "message": "No naked links found",
-            "severity": "info"
-          }
-        ],
-        "brokenLinks": [
-          {
-            "passed": true,
-            "message": "No broken internal links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenLinks": [
-          {
-            "passed": true,
-            "message": "No potentially broken links found",
-            "severity": "info"
-          }
-        ],
-        "potentiallyBrokenEmbeds": [],
-        "externalBrokenLinks": [
-          {
-            "passed": true,
-            "message": "Found 2 external link(s), all appear to resolve and are working",
-            "severity": "info"
-          }
-        ],
-        "readingLevel": [
-          {
-            "passed": true,
-            "message": "Good reading level: 9.1 (Moderately easy to read)",
-            "severity": "info"
-          }
-        ]
-      },
-      "overallScore": 71.22727272727273,
-      "issuesCount": 0,
-      "warningsCount": 3,
-      "noticesCount": 0
-    },
-    {
-      "file": "posts/getting-started.md",
-      "displayName": "Getting Started",
+      "file": "posts/rigging-workflow1/index.md",
+      "displayName": "rigging-workflow1",
       "checks": {
         "titleLength": [
           {
             "passed": false,
-            "message": "Title too short: 12 characters",
+            "message": "Title too short: 17 characters",
             "suggestion": "Aim for 30-60 characters",
             "severity": "warning"
           }
@@ -361,37 +48,73 @@
         "metaDescription": [
           {
             "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with description property",
+            "message": "Description too short: 25 characters",
+            "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
         ],
-        "titleH1Uniqueness": [],
-        "keywordInTitle": [],
-        "keywordInDescription": [],
-        "keywordInHeadings": [],
-        "keywordInSlug": [],
+        "titleH1Uniqueness": [
+          {
+            "passed": false,
+            "message": "Meta title and H1 are identical",
+            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
+            "severity": "warning"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"\"\"\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
         "slugFormat": [],
         "keywordDensity": [
           {
             "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with keyword property",
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
             "severity": "warning"
           }
         ],
         "headingOrder": [
           {
             "passed": true,
-            "message": "Heading structure is correct",
+            "message": "No heading structure issues found",
             "severity": "info"
           }
         ],
         "contentLength": [
           {
-            "passed": true,
-            "message": "Good content length: 504 words",
-            "severity": "info"
+            "passed": false,
+            "message": "Content too short: 0 words",
+            "suggestion": "Aim for at least 300 words",
+            "severity": "warning"
           }
         ],
         "duplicateTitles": [],
@@ -443,24 +166,24 @@
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 8.6 (Easy to read)",
+            "message": "No readable content found for reading level analysis",
             "severity": "info"
           }
         ]
       },
-      "overallScore": 73.5,
+      "overallScore": 40,
       "issuesCount": 0,
-      "warningsCount": 3,
+      "warningsCount": 9,
       "noticesCount": 0
     },
     {
-      "file": "posts/formatting-reference.md",
-      "displayName": "Formatting Reference",
+      "file": "posts/rigging-workflow0/index.md",
+      "displayName": "rigging-workflow0",
       "checks": {
         "titleLength": [
           {
             "passed": false,
-            "message": "Title too short: 9 characters",
+            "message": "Title too short: 17 characters",
             "suggestion": "Aim for 30-60 characters",
             "severity": "warning"
           }
@@ -468,42 +191,71 @@
         "metaDescription": [
           {
             "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with description property",
+            "message": "Description too short: 25 characters",
+            "suggestion": "Aim for 120-160 characters",
             "severity": "warning"
           }
         ],
-        "titleH1Uniqueness": [],
-        "keywordInTitle": [],
-        "keywordInDescription": [],
-        "keywordInHeadings": [],
-        "keywordInSlug": [],
+        "titleH1Uniqueness": [
+          {
+            "passed": false,
+            "message": "Meta title and H1 are identical",
+            "suggestion": "Modify one to be unique, or specify a suffix/prefix in plugin settings",
+            "severity": "warning"
+          }
+        ],
+        "keywordInTitle": [
+          {
+            "passed": false,
+            "message": "Keyword not found in title",
+            "suggestion": "Include your target keyword in the title",
+            "severity": "warning"
+          }
+        ],
+        "keywordInDescription": [
+          {
+            "passed": false,
+            "message": "Keyword not found in description",
+            "suggestion": "Include your target keyword in the description",
+            "severity": "warning"
+          }
+        ],
+        "keywordInHeadings": [
+          {
+            "passed": false,
+            "message": "Keyword not found in H1",
+            "suggestion": "Include your target keyword in the H1 heading for better SEO",
+            "severity": "warning"
+          }
+        ],
+        "keywordInSlug": [
+          {
+            "passed": false,
+            "message": "Target keyword \"\"\"\" not found in slug",
+            "suggestion": "Include your target keyword in the filename",
+            "severity": "warning"
+          }
+        ],
         "slugFormat": [],
         "keywordDensity": [
           {
             "passed": false,
-            "message": "No frontmatter found",
-            "suggestion": "Add frontmatter with keyword property",
+            "message": "Keyword density too low: 0.0%",
+            "suggestion": "Aim for at least 1% density",
             "severity": "warning"
           }
         ],
         "headingOrder": [
           {
-            "passed": false,
-            "message": "\"Heading 1\" (H1) appears after H3",
-            "suggestion": "H1 should be the first heading or not used at all",
-            "severity": "warning",
-            "position": {
-              "line": 35,
-              "searchText": "# Heading 1\r",
-              "context": "### Headings\r\n\r\n# Heading 1\r\n## Heading 2\r\n### Heading 3\r"
-            }
+            "passed": true,
+            "message": "No heading structure issues found",
+            "severity": "info"
           }
         ],
         "contentLength": [
           {
             "passed": true,
-            "message": "Good content length: 1236 words",
+            "message": "Good content length: 523 words",
             "severity": "info"
           }
         ],
@@ -513,133 +265,22 @@
         "altText": [
           {
             "passed": true,
-            "message": "All media elements have alt text",
+            "message": "No media elements in this post",
             "severity": "info"
           }
         ],
         "imageFileNames": [
           {
-            "passed": false,
-            "message": "Image 2 has a potentially generic file name: photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 125,
-              "searchText": "![Mountain landscape](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop)",
-              "context": "**Two Images Side by Side**\r\n\r\n![Mountain landscape](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop)\r\n![Ocean view](https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop)\r\n\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 3 has a potentially generic file name: photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 126,
-              "searchText": "![Ocean view](https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop)",
-              "context": "\r\n![Mountain landscape](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop)\r\n![Ocean view](https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&h=600&fit=crop)\r\n\r\n**Three Images in a Row**\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 4 has a potentially generic file name: photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 130,
-              "searchText": "![Forest path](https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop)",
-              "context": "**Three Images in a Row**\r\n\r\n![Forest path](https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop)\r\n![Desert sunset](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop)\r\n![City skyline](https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop)\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 5 has a potentially generic file name: photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 131,
-              "searchText": "![Desert sunset](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop)",
-              "context": "\r\n![Forest path](https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop)\r\n![Desert sunset](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop)\r\n![City skyline](https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop)\r\n\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 6 has a potentially generic file name: photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 132,
-              "searchText": "![City skyline](https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop)",
-              "context": "![Forest path](https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop)\r\n![Desert sunset](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop)\r\n![City skyline](https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop)\r\n\r\n**Four Images in a Row**\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 7 has a potentially generic file name: photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 136,
-              "searchText": "![Winter landscape](https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop)",
-              "context": "**Four Images in a Row**\r\n\r\n![Winter landscape](https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop)\r\n![Spring flowers](https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop)\r\n![Summer beach](https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop)\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 8 has a potentially generic file name: photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 137,
-              "searchText": "![Spring flowers](https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop)",
-              "context": "\r\n![Winter landscape](https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop)\r\n![Spring flowers](https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop)\r\n![Summer beach](https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop)\r\n![Autumn leaves](https://images.unsplash.com/photo-1441260038675-7329ab4cc264?w=800&h=600&fit=crop)\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 9 has a potentially generic file name: photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 138,
-              "searchText": "![Summer beach](https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop)",
-              "context": "![Winter landscape](https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&h=600&fit=crop)\r\n![Spring flowers](https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop)\r\n![Summer beach](https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop)\r\n![Autumn leaves](https://images.unsplash.com/photo-1441260038675-7329ab4cc264?w=800&h=600&fit=crop)\r\n\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Image 10 has a potentially generic file name: photo-1441260038675-7329ab4cc264?w=800&h=600&fit=crop",
-            "suggestion": "Use descriptive file names",
-            "severity": "warning",
-            "position": {
-              "line": 139,
-              "searchText": "![Autumn leaves](https://images.unsplash.com/photo-1441260038675-7329ab4cc264?w=800&h=600&fit=crop)",
-              "context": "![Spring flowers](https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=600&fit=crop)\r\n![Summer beach](https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&h=600&fit=crop)\r\n![Autumn leaves](https://images.unsplash.com/photo-1441260038675-7329ab4cc264?w=800&h=600&fit=crop)\r\n\r\n**How to Use Multiple Images / Gallery**\r"
-            }
+            "passed": true,
+            "message": "All images have good file names",
+            "severity": "info"
           }
         ],
         "nakedLinks": [
           {
-            "passed": false,
-            "message": "Naked link found: https://example.com",
-            "suggestion": "Convert to markdown link format: [link text](url)",
-            "severity": "warning",
-            "position": {
-              "line": 221,
-              "searchText": "https://example.com",
-              "context": "This is a [reference link][1] and this is another [reference link][markdown].\r\n\r\n[1]: https://example.com\r\n[markdown]: https://daringfireball.net/projects/markdown/\r\n\r"
-            }
-          },
-          {
-            "passed": false,
-            "message": "Naked link found: https://daringfireball.net/projects/markdown/",
-            "suggestion": "Convert to markdown link format: [link text](url)",
-            "severity": "warning",
-            "position": {
-              "line": 222,
-              "searchText": "https://daringfireball.net/projects/markdown/",
-              "context": "\r\n[1]: https://example.com\r\n[markdown]: https://daringfireball.net/projects/markdown/\r\n\r\n## Code Blocks\r"
-            }
+            "passed": true,
+            "message": "No naked links found",
+            "severity": "info"
           }
         ],
         "brokenLinks": [
@@ -660,24 +301,63 @@
         "externalBrokenLinks": [
           {
             "passed": true,
-            "message": "Found 13 external link(s), all appear to resolve and are working",
-            "severity": "info"
+            "message": "External link: https://bindpose.com/rigging-systems-reusability-modularity-extensibility",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 17,
+              "searchText": "https://bindpose.com/rigging-systems-reusability-modularity-extensibility",
+              "context": "draft: false\n---\n[rigging-systems-reusability-modularity-extensibility](https://bindpose.com/rigging-systems-reusability-modularity-extensibility)\n\n위 글은 입사하고 얼마 지나지 않은 1년, 2년 정도에 보게 된 글이다. 그 당시에 나는 작업 보다 R&D를 주로 하는 역할로 팀 내에서 사용할 biped, quadruped rigging system 을 만드는 중 이었다. 그때 만들어야 했던 rigging system 에 대한 검색을 하다가 [위 글](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)을 보게 되었고, 내가 만들고 있던 것이 guidable(링크된 글의 작성자도 임의로 붙인 이름인 것 같다)이라는 rigging system 의 한 종류라는 것을 알았다. 그 당시에 만들던 rigging system 은 현재 가지고 있지 않지만 [이것](https://www.perryleijten.com/en/works/rigPlacement)과 비슷했다. "
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://bindpose.com/rigging-systems-reusability-modularity-extensibility/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 19,
+              "searchText": "https://bindpose.com/rigging-systems-reusability-modularity-extensibility/",
+              "context": "[rigging-systems-reusability-modularity-extensibility](https://bindpose.com/rigging-systems-reusability-modularity-extensibility)\n\n위 글은 입사하고 얼마 지나지 않은 1년, 2년 정도에 보게 된 글이다. 그 당시에 나는 작업 보다 R&D를 주로 하는 역할로 팀 내에서 사용할 biped, quadruped rigging system 을 만드는 중 이었다. 그때 만들어야 했던 rigging system 에 대한 검색을 하다가 [위 글](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)을 보게 되었고, 내가 만들고 있던 것이 guidable(링크된 글의 작성자도 임의로 붙인 이름인 것 같다)이라는 rigging system 의 한 종류라는 것을 알았다. 그 당시에 만들던 rigging system 은 현재 가지고 있지 않지만 [이것](https://www.perryleijten.com/en/works/rigPlacement)과 비슷했다. \n\n이 당시에 나는 guidable rigging system 를 scripting을 하지 않거나 덜 할 수 있는 장점이 있다고 생각하고 있었다. 하지만 이것은 작업을 거의 하지 않은 내 착각이었고 실제 작업 시에는 script 를 안 쓸 수 없다는 것을 뒤늦게 알았다. 실 작업 시엔 asset 마다 요구 사항이 다르고 추가 작업이 필요하다. 하지만 guidable rigging system 은 이런 개별 요구 사항까지 포함하기는 힘들었다."
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.perryleijten.com/en/works/rigPlacement",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 19,
+              "searchText": "https://www.perryleijten.com/en/works/rigPlacement",
+              "context": "[rigging-systems-reusability-modularity-extensibility](https://bindpose.com/rigging-systems-reusability-modularity-extensibility)\n\n위 글은 입사하고 얼마 지나지 않은 1년, 2년 정도에 보게 된 글이다. 그 당시에 나는 작업 보다 R&D를 주로 하는 역할로 팀 내에서 사용할 biped, quadruped rigging system 을 만드는 중 이었다. 그때 만들어야 했던 rigging system 에 대한 검색을 하다가 [위 글](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)을 보게 되었고, 내가 만들고 있던 것이 guidable(링크된 글의 작성자도 임의로 붙인 이름인 것 같다)이라는 rigging system 의 한 종류라는 것을 알았다. 그 당시에 만들던 rigging system 은 현재 가지고 있지 않지만 [이것](https://www.perryleijten.com/en/works/rigPlacement)과 비슷했다. \n\n이 당시에 나는 guidable rigging system 를 scripting을 하지 않거나 덜 할 수 있는 장점이 있다고 생각하고 있었다. 하지만 이것은 작업을 거의 하지 않은 내 착각이었고 실제 작업 시에는 script 를 안 쓸 수 없다는 것을 뒤늦게 알았다. 실 작업 시엔 asset 마다 요구 사항이 다르고 추가 작업이 필요하다. 하지만 guidable rigging system 은 이런 개별 요구 사항까지 포함하기는 힘들었다."
+            }
+          },
+          {
+            "passed": true,
+            "message": "External link: https://www.mgear-framework.com/",
+            "suggestion": "To find if any of these are broken, use the 'Check external links for 404s' button to trigger it.",
+            "severity": "notice",
+            "position": {
+              "line": 25,
+              "searchText": "https://www.mgear-framework.com/",
+              "context": "guidable rigging system 은 실제 asset 작업하는 것은 굉장히 편했다. 하지만 그 template을 완성하기까지 과정이 너무 힘들고 디버깅이 쉽지 않았다. maya 의 노드 에디터는 잘못된 부분을 확인하는 것도 힘들지만 기능이 반복 적으로 사용 될 때 일괄 수정이 매우 힘들었다. \n\n이후에는 [글](https://bindpose.com/rigging-systems-reusability-modularity-extensibility/)에 언급된 [mgear](https://www.mgear-framework.com/) 를 찾아보기 시작했다. mgear 는 data centric workflow를 중심으로 하는 철학으로 rigging에 필요한 전체 기능을 제공하는 framework 이다. scene이 아닌 guide를 기반으로 하는 데이터로부터 리그를 생성하는 workflow 는 scene 에 종속되지 않고 이전으로 돌아가 문제를 해결 할 수 있었다. 또한 custom scripts를 사용해서 modular rigging system 에서 지원하는 범위 밖의 코드를 build 할 때 추가 할 수 있는데 이것은 ==asset 마다 자동화== 를 가능하게 했다. asset 을 구성하는데 필요한 데이터를 asset 마다 독립적으로 관리 할 수 있다는 것은 정말 큰 이점 이었다. 특히 리그 재 사용 측면에서  꼭 필요하다고 생각하게 되었다. 이때 scripting 이 생각보다 많이 중요하다는 것을 깨닫고 mgear를 clone coding 하는 side project를 시작했다.\n\n하지만 mgear 역시 불편한 점이 있었는데 rig가 없는 guide 상태에서 작업을 하기 때문에 rig 를 확인하기 위해 build 를 반복해야 한다는 점이었다. 이것은 build가 얼마 걸리지 않을 때는 아무 문제가 되지 않았지만 rig를 build 하는데 10분이 넘어가는 asset을 작업할 때 굉장히 문제가 되었다. 그리고 외부 플러그인을 강제로 쓸 수 밖에 없다는 점, modular rigging system 을 수정하기 위해선 코드를 수정해야 하는데 오픈소스로 개발이 진행 중인 프로젝트라 수정 + 업데이트를 모두 관리해야 한다는 점, custom script 의 버전 관리가 자동으로 되지 않는 점이 개선이 필요했다."
+            }
           }
         ],
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: 6.8 (Easy to read)",
+            "message": "Good reading level: -4.3 (Very easy to read)",
             "severity": "info"
           }
         ]
       },
       "overallScore": 40,
       "issuesCount": 0,
-      "warningsCount": 15,
-      "noticesCount": 0
+      "warningsCount": 8,
+      "noticesCount": 4
     }
   ],
-  "lastScanTimestamp": 1763106776990,
+  "lastScanTimestamp": 1763836699916,
   "showNotices": true
 }
