@@ -1,7 +1,7 @@
 ---
 title: 살펴보기
 date: 2025-11-23
-description: domino에 대한 간략한 소개 입니다.
+description: Maya 내에서 domino의 구조와 특징, 작업 흐름에 대한 소개 입니다.
 tags: []
 image: ""
 imageAlt: ""
