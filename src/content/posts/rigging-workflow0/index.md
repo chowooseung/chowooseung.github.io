@@ -6,6 +6,10 @@ tags:
   - rigging-workflow
   - rigging-system
   - rigging
+  - data-centric
+  - guidable-rigging-system
+  - modular-rigging-system
+  - 자동화
 image:
 imageAlt:
 imageOG: false
@@ -26,7 +30,7 @@ guidable rigging system 은 실제 asset 작업하는 것은 굉장히 편했다
 
 하지만 mgear 역시 불편한 점이 있었는데 rig가 없는 guide 상태에서 작업을 하기 때문에 rig 를 확인하기 위해 build 를 반복해야 한다는 점이었다. 이것은 build가 얼마 걸리지 않을 때는 아무 문제가 되지 않았지만 rig를 build 하는데 10분이 넘어가는 asset을 작업할 때 굉장히 문제가 되었다. 그리고 외부 플러그인을 강제로 쓸 수 밖에 없다는 점, modular rigging system 을 수정하기 위해선 코드를 수정해야 하는데 오픈소스로 개발이 진행 중인 프로젝트라 수정 + 업데이트를 모두 관리해야 한다는 점, custom script 의 버전 관리가 guide와 함께 되지 않는 점이 개선이 필요했다.
 
-결국 현재는 rigging workflow 를 확립하는데 다음 항목을 고려하게 되었다.
+결국 현재는 다음 항목을 고려한 rigging workflow 설계가 필요하다고 판단하게 되었다.
 1. asset 단위의 자동화
 2. data centric workflow
 3. modular rigging system
