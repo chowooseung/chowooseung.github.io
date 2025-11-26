@@ -112,7 +112,7 @@
         "contentLength": [
           {
             "passed": false,
-            "message": "Content too short: 266 words",
+            "message": "Content too short: 280 words",
             "suggestion": "Aim for at least 300 words",
             "severity": "warning"
           }
@@ -166,7 +166,7 @@
         "readingLevel": [
           {
             "passed": true,
-            "message": "Good reading level: -7.5 (Very easy to read)",
+            "message": "Good reading level: -7.3 (Very easy to read)",
             "severity": "info"
           }
         ]
@@ -358,6 +358,6 @@
       "noticesCount": 4
     }
   ],
-  "lastScanTimestamp": 1764162178012,
+  "lastScanTimestamp": 1764165494640,
   "showNotices": true
 }
