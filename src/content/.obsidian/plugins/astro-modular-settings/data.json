@@ -1,7 +1,7 @@
 {
   "runWizardOnStartup": false,
   "currentTemplate": "standard",
-  "currentTheme": "obsidian",
+  "currentTheme": "atom",
   "customThemeFile": "custom",
   "contentOrganization": "folder-based",
   "themeColors": {
