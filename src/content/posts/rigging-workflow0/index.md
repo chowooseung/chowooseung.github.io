@@ -1,5 +1,5 @@
 ---
-title: rigging-workflow0
+title: "rigging-workflow #0 - workflow 설계 구상하기"
 date: 2025-11-22
 description: rigging workflow 에 대한 생각.
 tags:

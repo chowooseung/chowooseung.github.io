@@ -35,14 +35,13 @@
   "cachedGlobalResults": [
     {
       "file": "posts/rigging-workflow1/index.md",
-      "displayName": "rigging-workflow1",
+      "displayName": "rigging-workflow #1 - data-centric, asset 자동화에 대한 생각 정리",
       "checks": {
         "titleLength": [
           {
-            "passed": false,
-            "message": "Title too short: 17 characters",
-            "suggestion": "Aim for 30-60 characters",
-            "severity": "warning"
+            "passed": true,
+            "message": "Good title length: 57 characters",
+            "severity": "info"
           }
         ],
         "metaDescription": [
@@ -173,7 +172,7 @@
       },
       "overallScore": 40,
       "issuesCount": 0,
-      "warningsCount": 9,
+      "warningsCount": 8,
       "noticesCount": 0
     },
     {
@@ -358,6 +357,6 @@
       "noticesCount": 4
     }
   ],
-  "lastScanTimestamp": 1764165494640,
+  "lastScanTimestamp": 1764165998939,
   "showNotices": true
 }
