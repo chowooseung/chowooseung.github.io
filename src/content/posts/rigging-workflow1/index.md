@@ -1,5 +1,5 @@
 ---
-title: "rigging-workflow #1 - data-centric, asset automation 에 대한 생각 정리"
+title: "rigging-workflow #1 - data-centric, asset 자동화에 대한 생각 정리"
 date: 2025-11-25
 description: rigging workflow 에 대한 생각.
 tags:
